@@ -2,15 +2,19 @@
 A python website spider that recursively downloads a webpage.
 
 RUNNING MY PROJECT:
+
 python completion.py ["URL"] - (remove square brackets and quotes)
+
+e.g - 
+python completion.py homepages.ecs.vuw.ac.nz/~ian/nwen241/
+python completion.py homepages.ecs.vuw.ac.nz/~ian/nwen241
+python completion.py http://homepages.ecs.vuw.ac.nz/~ian/nwen241/index.html
 
 The program automatically cleans up the urls so all 3 variations
 of the urls above can work. For best results call with the entire url,
 as with the other two urls, the recursive version works on the basis 
 of the first url, so it may recurse twice due to it not 
 recognizing the index.html version
-
-I finished core, completion and challenge.
 
 Quick rundown of the code:
 
