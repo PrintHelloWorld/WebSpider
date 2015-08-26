@@ -2,11 +2,7 @@
 A python website spider that recursively downloads a webpage.
 
 RUNNING MY PROJECT:
-I included a main method in each of my scripts, they can be used as below:
-
-"python core.py homepages.ecs.vuw.ac.nz/~ian/nwen241/"
-"python challenge.py homepages.ecs.vuw.ac.nz/~ian/nwen241"
-"python completion.py http://homepages.ecs.vuw.ac.nz/~ian/nwen241/index.html"
+python completion.py ["URL"] - (remove square brackets and quotes)
 
 The program automatically cleans up the urls so all 3 variations
 of the urls above can work. For best results call with the entire url,
